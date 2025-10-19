@@ -42,6 +42,8 @@ impl_glam!(u32, UVec2, UVec3, UVec4);
 impl_glam!(i32, IVec2, IVec3, IVec4);
 impl_glam!(bool, BVec2, BVec3, BVec4);
 
+impl_glam!(u8, U8Vec2, U8Vec3, U8Vec4);
+
 #[cfg(test)]
 mod tests {
     use alloc::vec::Vec;
